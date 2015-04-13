@@ -1,0 +1,101 @@
+ADD  r1,r2,r3
+
+SUB  r1,r2,r3
+
+MUL r1,r2,r3
+DIV r1,r2,r3
+MOD r1,r2,r3
+
+AND r1,r2,r3
+
+OR r4,r5,r6
+jmp L
+NAND r1,r7,r3
+
+NOR r1,r6,r5
+
+L: XOR r3,r5,r8
+
+XNOR r1,r5,r3
+
+NSL r3,r1,r8
+
+NSR r8,r2,r5
+
+LDMR r1,r2
+
+STRM  r1,r4
+
+MVRR  r2,r6
+
+NEG  r3,r7
+
+L1: NOT  r1,r8
+
+SWP  r2,r3
+
+RR  r2,r9
+
+RL  r5,r2
+
+CMP  r2,r4
+
+ABS r2,r3
+
+INC  r5
+
+DEC r9
+
+JMP L
+
+IN 88
+OUT 8
+
+JC L
+
+JNC L1
+
+JP L
+
+JNP L
+
+JS L
+
+JNS L
+
+HLT
+
+NOP
+
+RET
+
+RETC
+
+RETNC
+
+RETP
+RETNP
+
+RETS
+
+RETNS
+
+START
+
+ADDI r4,r2,2
+SUBI r8,r2,145
+
+MODI r3,r9,6754
+
+MULI r4,r1,3456
+
+DIVI r2,r4,0
+
+MVI r4,765
+
+LDI r3,88
+STI r9,123
+
+
+
+FADD f1,f2,f3

@@ -1,0 +1,169 @@
+
+
+                  WELCOME TO THE  INSTRUCTION MANUAL 
+
+
+ADD  reg1,reg2,reg3     :     to add values refrenced in reg2 and reg3 
+
+
+SUB  reg1,reg2,reg3      :        to subtract values refrenced in reg2 and reg3 
+
+
+MUL reg1,reg2,reg3    : to multiply values refrenced in reg2 and reg3 
+
+
+DIV reg1,reg2,reg3    : to divide values refrenced in reg2 and reg3 
+
+
+MOD reg1,reg2,reg3 : to find mod of value refrenced in reg2 wrt valur refenced in reg3 
+
+
+AND reg1,reg2,reg3 : to and values refrenced in reg2 and reg3 
+
+
+OR reg1,reg2,reg3 : to and values refrenced in reg2 and reg3 
+
+
+NAND reg1,reg2,reg3 : to nand values refrenced in reg2 and reg3 
+
+
+NOR reg1,reg2,reg3 : to nor values refrenced in reg2 and reg3 
+
+
+XOR reg1,reg2,reg3 : to xor values refrenced in reg2 and reg3 
+
+
+XNOR reg1,reg2,reg3 : to xnor values refrenced in reg2 and reg3 
+
+
+NSL reg1,reg2,reg3 : to shift left the value refrenced in reg2 by n bits refrenced in reg3
+
+
+NSR reg1,reg2,reg3 : to shift right the value refrenced in reg2 by n bits refrenced in reg3
+
+
+FADD reg1,reg2,reg3 : to add floating point value from reg and reg3.
+
+
+FSUB reg1,reg2,reg3 : to subtract floating point value reg2 from reg3.
+
+
+LDMR reg1,reg2 : to load data refrenced in reg2 to reg1.
+
+
+STRM  reg1,reg2 : to store data refrenced in reg2 to reg1.
+
+
+MVRR  reg1,reg2 : to move data refrenced in reg2 to reg1.
+
+
+NEG  reg1,reg2 : to negate data refrenced in reg2 to reg1.
+
+
+NOT  reg1,reg2 : to NOT value refrenced in reg2 to reg1.
+
+
+SWP  reg1,reg2 : to swap value refrenced in reg2 to reg1.
+
+
+RR  reg1,reg2 : to rotate right the value refrenced in reg2
+
+
+RL  reg1,reg2 : to rotate left the value refrenced in reg2
+
+
+CMP  reg1,reg2 : to compare data refrenced in reg2 to reg1.
+
+
+ABS reg1,reg2 : to get absolute of data refrenced in reg2 to reg1.
+
+
+INC  reg1 : to increment the address of reg1
+
+
+DEC reg1 : to increment the address of reg1
+
+
+JMP L : to jump to the Label L
+
+
+IN 88 : to take input at a given address
+
+
+OUT 8 : to give output at a given address
+
+
+JC L : Jump if carry to label L
+
+
+JNC L1 : Jump if no carry to label L1
+
+
+JP L : Jump if parity to label L
+
+
+JNP L : Jump if no parity to label L
+
+
+JS L : Jump if sign bit is 1 to label L
+
+
+JNS L : Jump if sign bit is 1 to label L
+
+
+HLT : to stop the program
+
+
+NOP : No operation
+
+
+
+RET : Return
+
+
+RETC : Return if Carry
+
+
+RETNC : Return if  no Carry
+
+
+RETP : Return if parity is even
+
+
+RETNP : Return if parity is odd
+
+
+RETS : Return if sign bit is 1.
+
+
+RETNS : Return if sign bit is 0.
+
+
+START : to start the program
+
+
+ADDI reg1,reg2,-1 : to add immediate value and value refrenced in reg2 to store in reg1.
+
+
+SUBI reg1,reg2,455 : to subtract immediate value from value refrenced in reg2 to store in reg1.
+
+
+MODI reg1,reg2,6754 : to find mod of value refrenced in reg2 from immediate value
+
+
+MULI reg1,reg2,555: to multiply immediate value and value refrenced in reg2 to store in reg1.
+
+
+DIVI reg1,reg2,455 : to divide value refrenced in reg 2 from immediate value in reg2 to store in reg1.
+
+
+MVI reg,765 : to move immediate value in register
+
+
+LDI reg,88 : to load value refrenced from  immediate address
+
+
+STI reg,123 : : to store address of reg in immediate address
+
+
+
